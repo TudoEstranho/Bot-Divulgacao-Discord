@@ -4,7 +4,7 @@ client=discord.Client(intents=discord.Intents.all())
 @client.event
 async def on_ready():
     os.system("cls")
-    os.system("title ID by: @kingcontaspk !  || @siph.er")
+    os.system("title ID by: @tudoestranho")
     print(f"[!] Ready as {client.user.name}")
 @client.event
 async def on_guild_join(guild):
